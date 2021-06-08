@@ -1,0 +1,22 @@
+{
+    "name": "phys4fun",
+    "version-string": "0.1.0",
+    "maintainers": [
+        "Terens Tare"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/TerensTare/ImSDL2",
+    "description": "A cross-platform wrapper for using SDL2 with ImGui",
+    "dependencies": [
+        "sdl2",
+        {
+            "name": "imgui",
+            "features": [
+                "docking-experimental",
+                "freetype",
+                "dx11-binding",
+                "sdl2-binding"
+            ]
+        }
+    ]
+}
